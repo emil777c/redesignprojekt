@@ -21,6 +21,8 @@ h1 {
   font-size: 2rem;
   width: 100%;
   letter-spacing: 0.5rem;
+  padding-top: 0.8%;
+  padding-bottom: 0.5%;
 }
 
 nav a {
