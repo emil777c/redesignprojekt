@@ -5,7 +5,10 @@ main img {
 }
 * {
   box-sizing: border-box;
-  margin: 0;
+  /* margin: 0; */
+}
+body {
+  background-image: url(/img/baggrund.png);
 }
 main {
   margin-bottom: 20px;
@@ -48,43 +51,4 @@ main {
 
 .zoom:hover {
   transform: scale(0.9);
-}
-
-/* form {
-  padding: 2rem;
-  padding-top: 20px;
-}
-label,
-input,
-button {
-  display: block;
-  margin-bottom: 5px;
-}
-input {
-  margin-bottom: 6px;
-}
-footer {
-  border-top: solid 1px;
-  margin-left: 20px;
-  margin-right: 20px;
-  font-family: "Roboto", sans-serif;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-footer a {
-  font-family: "Roboto", sans-serif;
-  font-size: 1rem;
-  text-decoration: none;
-  color: black;
-}
-footer ol {
-  list-style: none;
-}
-.kontakt {
-  margin-top: 20px;
-  text-align: right;
-} */
-nav {
-  background: rgba(255, 255, 255, 0.8);
 }

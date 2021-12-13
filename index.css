@@ -54,7 +54,7 @@ h1 {
 nav a {
   text-decoration: none;
   color: inherit;
-  padding: 1rem;
+  padding: 0.6rem;
 }
 
 h2 {
@@ -65,4 +65,8 @@ h2 {
   mix-blend-mode: overlay;
   color: #fff;
   font-weight: 100;
+}
+header:hover {
+  background: rgba(255, 255, 255, 0.8);
+  color: #000;
 }
