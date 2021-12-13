@@ -35,9 +35,10 @@ nav a {
   padding: 0.6rem;
   font-family: "Roboto", sans-serif;
 }
-nav a:hover {
+.nav:hover {
   text-decoration: underline;
 }
+
 .location {
   text-decoration: underline;
 }
