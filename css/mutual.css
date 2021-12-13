@@ -3,10 +3,10 @@
   src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/moderne_sans.woff2);
 }
 header {
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
   text-align: center;
-  color: white;
+  color: black;
   transition: 0.4s;
 }
 
@@ -23,6 +23,10 @@ h1 {
   letter-spacing: 0.5rem;
   padding-top: 0.8%;
   padding-bottom: 0.5%;
+}
+.maja {
+  text-decoration: none;
+  color: black;
 }
 
 nav a {
