@@ -9,7 +9,7 @@ main img {
 }
 main {
   margin-bottom: 20px;
-  padding-top: 10%;
+  padding-top: 6%;
 }
 .top {
   display: grid;
@@ -61,7 +61,7 @@ main {
   color: gold;
 }
 
-form {
+/* form {
   padding: 2rem;
   padding-top: 20px;
 }
@@ -86,6 +86,8 @@ footer {
 footer a {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
+  text-decoration: none;
+  color: black;
 }
 footer ol {
   list-style: none;
@@ -93,7 +95,7 @@ footer ol {
 .kontakt {
   margin-top: 20px;
   text-align: right;
-}
+} */
 nav {
   background: rgba(255, 255, 255, 0.8);
 }

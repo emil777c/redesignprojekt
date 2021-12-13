@@ -6,24 +6,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex" />
     <title>Maja Dror</title>
+    <link rel="stylesheet" href="css/mutual.css" />
     <link rel="stylesheet" href="index.css" />
   </head>
 
   <body>
-    <video poster="hvis_video_ikke_virker.png" playsinline autoplay muted loop>
-      <source src="maja_maler.mp4" type="video/mp4" />
-      Your browser does not support the video tag.
-    </video>
-    <header>
-      <h1>MAJA DROR</h1>
-      <nav>
-        <a href="/html/malerier.html">Malerier</a>
-        <a href="html/skulpturer.html">Skulpturer</a>
-        <a href="/html/om.html">Om</a>
-      </nav>
-    </header>
-    <div id="fashion">
-      <h2>I opdagelse af det feminine...</h2>
-    </div>
+    <main>
+      <video
+        poster="hvis_video_ikke_virker.png"
+        playsinline
+        autoplay
+        muted
+        loop
+      >
+        <source src="maja_maler.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <header>
+        <h1>MAJA DROR</h1>
+        <nav>
+          <a href="/html/malerier.html">Malerier</a>
+          <a href="html/skulpturer.html">Skulpturer</a>
+          <a href="/html/om.html">Om</a>
+        </nav>
+      </header>
+      <div id="fashion">
+        <h2>I opdagelse af det feminine...</h2>
+      </div>
+    </main>
+    <footer>
+      <div class="kontakt">
+        <ol>
+          <li>
+            <b>Tlf: </b>
+            <a href="0">1234 5678</a>
+          </li>
+          <li>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="https://www.instagram.com/majadror/">majadror</a>
+          </li>
+        </ol>
+      </div>
+      <form>
+        <!-- Formular-indhold -->
+        <div class="form-felt">
+          <form>
+            <label for="email">Tilmeld dig nyhedsbrev</label>
+            <input
+              placeholder="fx majadror@mail.dk"
+              id="email"
+              name="email"
+              type="email"
+              required
+            />
+            <button>Indsend</button>
+          </form>
+        </div>
+      </form>
+    </footer>
   </body>
 </html>
