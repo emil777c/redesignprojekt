@@ -33,6 +33,13 @@ nav a {
   text-decoration: none;
   color: inherit;
   padding: 0.6rem;
+  font-family: "Roboto", sans-serif;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+.location {
+  text-decoration: underline;
 }
 
 h2 {

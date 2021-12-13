@@ -50,17 +50,6 @@ main {
   transform: scale(0.9);
 }
 
-.hide {
-  opacity: 0;
-}
-.pop {
-  grid-template-columns: 1fr;
-  left: 90%;
-}
-.location {
-  color: gold;
-}
-
 /* form {
   padding: 2rem;
   padding-top: 20px;
