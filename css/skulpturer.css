@@ -20,7 +20,7 @@ main {
   margin: 20px;
 }
 #first_section .sectionwrapper {
-  width: 40%;
+  width: 100%;
   margin-left: 15%;
 }
 #second_section .sectionwrapper {
@@ -29,7 +29,7 @@ main {
   margin-top: 20%;
 }
 #third_section .sectionwrapper {
-  width: 60%;
+  width: 90%;
   margin-left: 15%;
   margin-top: 10%;
 }
