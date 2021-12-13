@@ -1,6 +1,5 @@
 main img {
-  max-width: 20%;
-  height: auto;
+  max-width: 50%;
   display: block;
   /* border-radius: 1%; */
 }
@@ -10,8 +9,10 @@ main img {
 }
 
 main {
+  display: grid;
   margin-bottom: 20px;
   margin: 80px;
+  gap: 100px;
 }
 
 h1:hover {
@@ -29,8 +30,9 @@ h1:hover {
 
 #section1 {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: auto auto;
+  gap: 50px;
+  align-items: center;
 }
 
 .box1 {
@@ -63,6 +65,7 @@ p {
 #wrapper {
   display: grid;
   grid-template-columns: 1fr;
+  gap: 20px;
 }
 
 iframe {
