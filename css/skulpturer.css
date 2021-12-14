@@ -1,59 +1,81 @@
-main img {
-  max-width: 100%;
-  height: auto;
-  display: block;
+@font-face {
+  font-family: Moderne Sans;
+  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/moderne_sans.woff2);
 }
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab");
 * {
   box-sizing: border-box;
   margin: 0;
 }
-body {
-  background-image: url(/img/grid.webp);
-  background-size: 300px 300px;
+.swiper-slide {
+  text-align: center;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 main {
-  margin-bottom: 10px;
-  /* padding-top: 6%; */
+  margin-bottom: 6%;
 }
-.top {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 20px;
-}
-#first_section .sectionwrapper {
-  width: 90%;
-  rotate: -90deg;
-}
-
-#second_section .sectionwrapper {
-  width: 80%;
-  padding-right: 5%;
-  margin-top: 55%;
-}
-#third_section .sectionwrapper {
-  width: 80%;
-  margin-left: 15%;
-  margin-top: 10%;
-}
-#fourth_section .sectionwrapper {
-  width: 90%;
-  margin-right: 30%;
-  margin-top: 5%;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-}
-#fourth_section img {
-  grid-column: 2/3;
-  padding-right: 15%;
-}
-.zoom {
-  transition: transform 0.2s; /* Animation */
+.container-general {
+  /* padding: 75px 0; */
   margin: 0 auto;
+  width: 800px;
 }
 
-.zoom:hover {
-  transform: scale(0.9);
+.container-general .gallery-wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 70vh;
 }
-header {
-  background: rgba(255, 255, 255, 0.7);
+
+.container-general .gallery-wrap .item {
+  flex: 1;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  transition: all 0.8s ease;
+}
+
+.container-general .gallery-wrap .item:hover {
+  flex: 7;
+}
+
+.wrap-effect-1 .item:first-of-type {
+  background-image: url("/img/keramik.png");
+}
+
+.wrap-effect-1 .item:nth-of-type(2) {
+  background-image: url("/img/gul.jpg");
+}
+
+.wrap-effect-1 .item:nth-of-type(3) {
+  background-image: url("/img/sort.jpg");
+}
+.wrap-effect-1 .item:nth-of-type(4) {
+  background-image: url("/img/blaa.jpg");
+}
+
+.wrap-effect-1 .item:last-of-type {
+  background-image: url("/img/hvid.jpg");
+}
+
+.gallery-wrap {
+  margin-top: 5%;
+}
+.container-general .gallery-wrap .item:hover h3 {
+  color: rgb(0, 0, 129);
+  /* color: rgb(179, 25, 25); */
+  display: flex;
+  text-align: left;
+  opacity: 1;
+  margin-left: 3%;
+  margin-top: 2%;
+  font-family: Moderne Sans, sans-serif;
+  font-size: 0.8rem;
+}
+.hide {
+  opacity: 0;
 }
