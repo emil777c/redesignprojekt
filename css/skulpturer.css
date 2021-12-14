@@ -54,3 +54,6 @@ main {
 .zoom:hover {
   transform: scale(0.9);
 }
+header {
+  background: rgba(255, 255, 255, 0.7);
+}
