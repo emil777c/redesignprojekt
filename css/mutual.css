@@ -62,15 +62,15 @@ input {
   margin-bottom: 6px;
 }
 footer {
-  border-top: solid 1px;
-  margin-left: 20px;
-  margin-right: 20px;
+  /* border-top: solid 1px; */
+  padding-left: 20px;
+  padding-right: 20px;
   margin-top: 20px;
   font-family: "Roboto", sans-serif;
   display: flex;
   justify-content: center;
   gap: 20px;
-  background-color: hsla(0, 0%, 100%, 0.3);
+  background-color: hsla(0, 0%, 100%, 0.8);
 }
 footer a {
   font-family: "Roboto", sans-serif;
