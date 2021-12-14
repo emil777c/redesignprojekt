@@ -8,7 +8,7 @@ main img {
   margin: 0;
 }
 body {
-  background-image: url(/img/grid.jpg);
+  background-image: url(/img/grid.webp);
   background-size: 300px 300px;
 }
 main {
