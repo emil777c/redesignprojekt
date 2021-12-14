@@ -34,6 +34,11 @@ nav a {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
 }
+header {
+  background: rgba(255, 255, 255, 0.7);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
 nav a:hover {
   text-decoration: underline;
@@ -42,16 +47,6 @@ nav a:hover {
 .location {
   text-decoration: underline;
 }
-
-/* h2 {
-  font-family: Century Schoolbook, Century Schoolbook L, Georgia, serif;
-  font-size: 8vmin;
-  text-align: center;
-  margin: 2rem 3rem 0;
-  mix-blend-mode: overlay;
-  color: #fff;
-  font-weight: 100;
-} */
 
 form {
   padding: 2rem;
