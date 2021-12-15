@@ -28,6 +28,10 @@ h1 {
   text-decoration: none;
   color: black;
 }
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+}
 header a {
   padding-bottom: 40px;
 }
